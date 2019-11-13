@@ -13,9 +13,6 @@ end
 
 def select_name_and_series_subgenres_of_authors
   "SELECT authors.name, subgenres.name FROM series INNER JOIN authors, subgenres"
-  "SELECT t1.column, t2.column,t3.column FROM
-  series JOIN authors ON series.author_id = authors.id
-  JOIN subgenres ON table2.primarykey =table3.foreignkey"
 end
 
 def select_series_title_with_most_human_characters
